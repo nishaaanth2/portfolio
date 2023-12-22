@@ -80,7 +80,7 @@ export const projectsData = [
     title: "Yosoku",
     description:
       "Harness predictive analytics to anticipate future stock values and deliver tailored user recommendations.",
-    tags: ["React", "TypeScript", "MongoDB", "Tailwind", "AWS"],
+    tags: ["React", "TypeScript", "ExpressJS", "MongoDB", "Tailwind", "AWS"],
     imageUrl: yosoku,
   },
   {
@@ -90,6 +90,7 @@ export const projectsData = [
     tags: [ "Next.js", "GSAP", "Tailwind", "FramerMotion"],
     imageUrl: diostec,
   },
+  
 ] as const;
 
 export const skillsData = [
@@ -100,6 +101,8 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "ExpressJS",
+  "NestJS",
   "Git",
   "Tailwind",
   "Prisma",
@@ -108,7 +111,6 @@ export const skillsData = [
   "AWS",
   "Web3",
   "shadCN",
-  "Express",
   "Python",
   "GSAP",
   "Framer Motion",
