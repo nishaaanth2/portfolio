@@ -16,7 +16,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Contact />
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6377298249648763"
+      {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6377298249648763"
      crossorigin="anonymous"></script>
 <!-- horizontal -->
 <ins class="adsbygoogle"
@@ -27,7 +27,7 @@ export default function Home() {
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> */}
     </main>
   );
 }
