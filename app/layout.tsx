@@ -30,6 +30,7 @@ export default function RootLayout({
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
+            
             <Header />
             {children}
             <Analytics />
