@@ -9,10 +9,63 @@ import { Toaster } from "react-hot-toast";
 import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
+let title = "Nishaanth | Software Developer";
+let description = "Nishaanth is a full-stack developer with 4 years of experience.";
+let url = "https://nishaanth.com";
+let ogimage = [
+  {
+    url: "https://www.nishaanth.com/thumbnail.png",
+    width: 1200,
+    height: 630,
+    alt: "nishaanth"
+  }
+];
+let twitterid = '@nishaaanth2';
+let sitename = 'nishaanth.com';
 
 export const metadata = {
-  title: "Nishaanth | Web Developer",
-  description: "Nishaanth is a full-stack developer with 4 years of experience.",
+  title,
+  description,
+  metadataBase: new URL(url),
+  keywords: [
+    'nishaanth',
+    'nishaanth.com',
+    'nishaanth.dev',
+    'nishaanth.io',
+    'nishaanth.ai',
+    'portfolio',
+    'full-stack developer',
+    'web developer',
+    'software engineer',
+    'react',
+    'next.js',
+    'node.js',
+    'express',
+    'mongodb',
+  ],
+  icons: {
+    icon: '/favicon.ico',
+  },
+  openGraph: {
+    images: ogimage,
+    title,
+    description,
+    url: url,
+    siteName: sitename,
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ogimage,
+    title,
+    description,
+    creator: twitterid,
+    site: twitterid,
+  },
+  alternates: {
+    canonical: url,
+  },
 };
 
 export default function RootLayout({
