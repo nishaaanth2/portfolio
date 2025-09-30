@@ -10,6 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import rmtdevImg from "@/public/unknown.webp";
+import { yearsOfExperience } from "@/lib/utils";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -65,7 +66,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Nishaanth.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">3 years</span> of experience. I enjoy
+        <span className="font-bold">{yearsOfExperience()} years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>

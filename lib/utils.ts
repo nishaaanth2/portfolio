@@ -24,3 +24,11 @@ export const getErrorMessage = (error: unknown): string => {
 
   return message;
 };
+
+export const yearsOfExperience = (): number => {
+  const startDate = new Date("2020-01-01");
+  const currentDate = new Date();
+  const diffInMilliseconds = currentDate.getTime() - startDate.getTime();
+  const millisecondsInYear = 1000 * 60 * 60 * 24 * 365.25; // Considering leap years
+  return Math.floor(diffInMilliseconds / millisecondsInYear);
+}

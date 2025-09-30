@@ -4,6 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { yearsOfExperience } from "@/lib/utils";
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -19,7 +20,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      A passionate researcher and developer with a deep interest in exploring new technologies. With 4+ years of experience as a Full Stack Developer, I specialize in ReactJS, NextJS, shadCN, TailwindCSS, NodeJS, ExpressJS, and Python, as well as PostgreSQL and Web3.js. I am constantly striving to learn and grow in the field of technology.
+      A passionate researcher and developer with a deep interest in exploring new technologies. With {yearsOfExperience()}+ years of experience as a Full Stack Developer, I specialize in ReactJS, NextJS, shadCN, TailwindCSS, NodeJS, ExpressJS, and Python, as well as PostgreSQL and Web3.js. I am constantly striving to learn and grow in the field of technology.
       </p>
     </motion.section>
   );

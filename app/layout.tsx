@@ -9,10 +9,11 @@ import { Toaster } from "react-hot-toast";
 import { Analytics } from '@vercel/analytics/react';
 import Head from "next/head";
 import Script from "next/script";
+import { yearsOfExperience } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 let title = "Nishaanth | Software Developer";
-let description = "Nishaanth is a full-stack developer with 4 years of experience.";
+let description = `Nishaanth is a full-stack developer with ${yearsOfExperience()} years of experience.`;
 let url = "https://nishaanth.com";
 let ogimage = [
   {
@@ -90,6 +91,11 @@ export default function RootLayout({
           })(window,document,'script','dataLayer','GTM-K7J7QRKF');
         `}
       </Script>
+      <Script 
+        src="https://arivubot-seven.vercel.app/api/widget/mg6en860macnz7ymb4r"
+        strategy="afterInteractive"
+        id="arivubot-widget"
+      />
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
