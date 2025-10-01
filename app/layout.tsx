@@ -115,6 +115,13 @@ export default function RootLayout({
       </Script>
       {/* End Matomo Code */}
       
+      <Script 
+        src="https://cloud.umami.is/script.js"
+        data-website-id="fa615968-9398-416f-b528-86372de5b3cd"
+        strategy="afterInteractive"
+        id="umami-analytics"
+      />
+      
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
