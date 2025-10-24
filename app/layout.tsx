@@ -114,7 +114,7 @@ export default function RootLayout({
         `}
       </Script>
       {/* End Matomo Code */}
-      
+{/*       
       <Script 
         src="https://cloud.umami.is/script.js"
         data-website-id="fa615968-9398-416f-b528-86372de5b3cd"
@@ -127,6 +127,12 @@ export default function RootLayout({
         data-website-id="529f713e-e69a-4389-81be-f65f057c212f"
         strategy="afterInteractive"
         id="umami-railway"
+       /> */}
+      
+      <Script 
+        src="https://ai-chat-widget-production.up.railway.app/chatbot.min.js?apiKey=c076cb42-c6c2-41d3-b6f3-8c462407d754"
+        strategy="afterInteractive"
+        id="ai-chat-widget"
       />
       
       <body
