@@ -130,7 +130,7 @@ export default function RootLayout({
        /> */}
       
       <Script 
-        src="https://ai-chat-widget-production.up.railway.app/chatbot.min.js?apiKey=c076cb42-c6c2-41d3-b6f3-8c462407d754"
+        src="https://ai-chat-widget-production.up.railway.app/chatbot.min.js?apiKey=dab46047-67c8-4b9a-a473-86b6b63ef37e"
         strategy="afterInteractive"
         id="ai-chat-widget"
       />
