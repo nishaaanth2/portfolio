@@ -127,13 +127,7 @@ export default function RootLayout({
         data-website-id="529f713e-e69a-4389-81be-f65f057c212f"
         strategy="afterInteractive"
         id="umami-railway"
-       /> */}
-      
-      <Script 
-        src="https://ai-chat-widget-production.up.railway.app/chatbot.min.js?apiKey=dab46047-67c8-4b9a-a473-86b6b63ef37e"
-        strategy="afterInteractive"
-        id="ai-chat-widget"
-      />
+       */}
       
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
