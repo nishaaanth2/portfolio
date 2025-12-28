@@ -12,6 +12,7 @@ import nftgdp from "@/public/NFTGDP_first_frame.jpg";
 import aladdyn from "@/public/Aladdyn.jpeg";
 import kittymagic from "@/public/km.png";
 import wedlink from "@/public/wedlink.png";
+import railwayRuleClarifier from "@/public/Railway Rule Clarifier AI.jpeg";
 
 export const links = [
   {
@@ -109,8 +110,8 @@ export const projectsData = [
   {
     title: "Barron Tech Serve",
     description:
-      "Mobile application for employee tracking with live GPS tracking dashboard. Managed as Project Manager, Team Lead, and Developer (Admin Panel). Features real-time employee location tracking, trip management, and location-based expense calculation in rupees.",
-    tags: ["Mobile App", "React Native", "Real-time Tracking", "GPS", "Dashboard", "Admin Panel", "Express.js", "MongoDB"],
+      "Mobile app for employee tracking with live GPS dashboard. Managed as Project Manager, Team Lead, and Developer. Features real-time location tracking, trip management, and location-based expense calculation.",
+    tags: [ "Android", "Real-time Tracking", "GPS", "Admin Panel", "Express.js", "MongoDB"],
     imageUrl: barrontechserve,
   },
   {
@@ -121,13 +122,6 @@ export const projectsData = [
     imageUrl: yosoku,
   },
   {
-    title: "AI OCR Service",
-    description:
-      "OCR extraction service using GPT with serverless processing for document analysis and data extraction.",
-    tags: ["Next.js", "Auth0", "AWS Lambda", "AWS EC2"],
-    imageUrl: unknown,
-  },
-  {
     title: "Wedlink",
     description:
       "Boutique wedding design studio website for creating timeless wedding invitations. Features elegant designs for modern romantics, showcasing collections, services, and custom invitation design options.",
@@ -135,11 +129,25 @@ export const projectsData = [
     imageUrl: wedlink,
   },
   {
+    title: "Railway Rule Clarifier AI",
+    description:
+      "Southern Railway rule book website with multiple interlinked chapters, OCR processing, and AI-powered knowledge support bot. Features comprehensive rule navigation, document extraction, and interactive Q&A system for railway regulations.",
+    tags: ["Next.js", "PostgreSQL", "Tesseract OCR"],
+    imageUrl: railwayRuleClarifier,
+  },
+  {
     title: "NFTGDP",
     description:
       "Multi-chain NFT analytics pipeline providing insights and data aggregation across multiple blockchain networks.",
     tags: ["Python", "AWS Lambda", "MongoDB"],
     imageUrl: nftgdp,
+  },
+  {
+    title: "AI OCR Service",
+    description:
+      "OCR extraction service using GPT with serverless processing for document analysis and data extraction.",
+    tags: ["Next.js", "Auth0", "AWS Lambda", "AWS EC2"],
+    imageUrl: unknown,
   },
   {
     title: "NFT LENS",
