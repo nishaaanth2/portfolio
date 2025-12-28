@@ -20,7 +20,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      A passionate researcher and developer with a deep interest in exploring new technologies. With {yearsOfExperience()}+ years of experience as a Full Stack Developer, I specialize in ReactJS, NextJS, shadCN, TailwindCSS, NodeJS, ExpressJS, and Python, as well as PostgreSQL and Web3.js. I am constantly striving to learn and grow in the field of technology.
+      Full Stack Developer with {yearsOfExperience()}+ years of experience building scalable, real-time applications and backend services. Focused on system design, microservices, database optimization, and cloud deployments. Experienced in AI-driven workflows including RAG, OCR, and real-time business messaging automation.
       </p>
     </motion.section>
   );

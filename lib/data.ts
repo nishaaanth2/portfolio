@@ -5,6 +5,13 @@ import { LuGraduationCap } from "react-icons/lu";
 import yosoku from "@/public/yosoku.png";
 import pixnot from "@/public/pixnot.png";
 import diostec from "@/public/diostec.png";
+import unknown from "@/public/unknown.webp";
+import wordanalytics from "@/public/wordanalytics.png";
+import barrontechserve from "@/public/btsScreenshot.png";
+import nftgdp from "@/public/NFTGDP_first_frame.jpg";
+import aladdyn from "@/public/Aladdyn.jpeg";
+import kittymagic from "@/public/km.png";
+import wedlink from "@/public/wedlink.png";
 
 export const links = [
   {
@@ -35,83 +42,138 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Computer Science Engineering",
-    location: "Jeppiaar Engineering College",
+    title: "Senior Architect & Lead Developer",
+    location: "ADRIG AI Technologies Pvt. Ltd, Chennai",
     description:
-      "With a four-year bachelor's degree, numerous hackathon victories, and event leadership. Organized coding symposiums, conducted workshops, and managed a coding club.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2017-2021",
-  },
-  {
-    title: "Back-End Developer",
-    location: "AIOTY Labs, Chennai",
-    description:
-      "Proficient in Flask, MQTT, and implementing machine learning models (.mlmodel).",
+      "Leading full-stack development of scalable SaaS platforms. Specializing in AI-driven workflows, microservices architecture, and real-time business messaging automation.",
     icon: React.createElement(CgWorkAlt),
-    date: "Oct 2020 - Sep 2021",
+    date: "Nov 2023 – Present",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full Stack Developer",
+    location: "Orgware Tech, Chennai",
+    description:
+      "Developed and maintained full-stack applications using Next.js, ReactJS, ExpressJS, and various databases. Managed project structure and ensured timely delivery.",
+    icon: React.createElement(FaReact),
+    date: "Aug 2022 – Nov 2023",
+  },
+  {
+    title: "Full Stack Developer",
     location: "Guardian Link, Chennai",
     description:
-      "Led the architecture and team NFT Analytics development using ReactJS, ExpressJS, Python, and AWS Lambda.",
+      "Led the architecture and development of NFT Analytics platforms using ReactJS, ExpressJS, Python, and AWS Lambda.",
     icon: React.createElement(FaReact),
-    date: "2021 Oct - 2022 Jul",
+    date: "Oct 2021 – Jul 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Orgware, Chennai",
+    title: "Backend Developer",
+    location: "AIOTY Labs, Chennai",
     description:
-      "Expertise in Next.js, ReactJS, ExpressJS, AWS and various databases. Managed project structure and ensured timely delivery.",
-    icon: React.createElement(FaReact),
-    date: "Aug 2022 - Nov 2023",
+      "Developed backend services using Flask, MQTT, and implemented machine learning models (.mlmodel) for real-time data processing.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct 2020 – Sep 2021",
+  },
+  {
+    title: "B.E Computer Science",
+    location: "Jeppiaar Engineering College",
+    description:
+      "Bachelor's degree in Computer Science with 7.62 CGPA. Participated in hackathons, organized coding symposiums, conducted workshops, and managed coding club activities.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017 – 2021",
+  },
+  {
+    title: "Higher Secondary (CBSE)",
+    location: "Velammal Vidhyashram",
+    description:
+      "Completed Higher Secondary education with 66.4% marks.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Pixnot",
+    title: "Aladdyn",
     description:
-      "AI image, code, video, music generator and AI chat.",
-    tags: [ "Next.js", "shadCN", "Tailwind", "Prisma", "cockroachDB", "clerkAuth"],
-    imageUrl: pixnot,
+      "SaaS platform connecting AI agents to business messaging channels (WhatsApp, Email, Instagram). Enables automation and scaling of customer support conversations.",
+    tags: ["Vite", "Express.js", "Microservices", "PostgreSQL", "Prisma ORM", "Mail Server", "MCP", "RAG"],
+    imageUrl: aladdyn,
   },
   {
-    title: "Yosoku",
+    title: "Kitty Magic",
     description:
-      "Harness predictive analytics to anticipate future stock values and deliver tailored user recommendations.",
-    tags: ["React", "TypeScript", "ExpressJS", "MongoDB", "Tailwind", "AWS"],
+      "Real-time chat microservice for event organization and group interactions with Socket.io integration.",
+    tags: ["Express.js", "Socket.io", "PostgreSQL", "Prisma"],
+    imageUrl: kittymagic,
+  },
+  {
+    title: "Barron Tech Serve",
+    description:
+      "Mobile application for employee tracking with live GPS tracking dashboard. Managed as Project Manager, Team Lead, and Developer (Admin Panel). Features real-time employee location tracking, trip management, and location-based expense calculation in rupees.",
+    tags: ["Mobile App", "React Native", "Real-time Tracking", "GPS", "Dashboard", "Admin Panel", "Express.js", "MongoDB"],
+    imageUrl: barrontechserve,
+  },
+  {
+    title: "Stock Price Prediction Web",
+    description:
+      "Predictive analytics platform with personalized stock recommendations and real-time data processing.",
+    tags: ["React", "Tailwind", "Express", "MongoDB", "AWS EC2", "Vercel"],
     imageUrl: yosoku,
   },
   {
-    title: "Diostec",
+    title: "AI OCR Service",
     description:
-      "Job Placement static website",
-    tags: [ "Next.js", "GSAP", "Tailwind", "FramerMotion"],
-    imageUrl: diostec,
+      "OCR extraction service using GPT with serverless processing for document analysis and data extraction.",
+    tags: ["Next.js", "Auth0", "AWS Lambda", "AWS EC2"],
+    imageUrl: unknown,
   },
-  
+  {
+    title: "Wedlink",
+    description:
+      "Boutique wedding design studio website for creating timeless wedding invitations. Features elegant designs for modern romantics, showcasing collections, services, and custom invitation design options.",
+    tags: ["Next.js", "TailwindCSS", "lenis"],
+    imageUrl: wedlink,
+  },
+  {
+    title: "NFTGDP",
+    description:
+      "Multi-chain NFT analytics pipeline providing insights and data aggregation across multiple blockchain networks.",
+    tags: ["Python", "AWS Lambda", "MongoDB"],
+    imageUrl: nftgdp,
+  },
+  {
+    title: "NFT LENS",
+    description:
+      "Multi-chain NFT scanner backend with real-time monitoring and ML-based analysis capabilities.",
+    tags: ["Flask", "MQTT", "ML model"],
+    imageUrl: unknown,
+  },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
   "Next.js",
+  "React.js",
+  "TailwindCSS",
+  "ShadCN UI",
   "Node.js",
-  "ExpressJS",
-  "NestJS",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "PostgreSQL",
-  "AWS",
-  "Web3",
-  "shadCN",
+  "Express.js",
   "Python",
-  "GSAP",
-  "Framer Motion",
+  "Flask",
+  "FastAPI",
+  "REST APIs",
+  "WebSockets",
+  "PostgreSQL",
+  "MongoDB",
+  "Prisma ORM",
+  "AWS EC2",
+  "AWS S3",
+  "AWS Lambda",
+  "Docker",
+  "CI/CD",
+  "Linux",
+  "RAG",
+  "OCR",
+  "MCP",
+  "Socket.io",
+  "MQTT",
 ] as const;
