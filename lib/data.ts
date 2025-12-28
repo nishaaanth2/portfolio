@@ -51,6 +51,14 @@ export const experiencesData = [
     date: "Nov 2023 – Present",
   },
   {
+    title: "Freelancer",
+    location: "Remote",
+    description:
+      "Helping startup companies grow their business together. Providing technical expertise and development services to support business growth and innovation.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Nov 2023 – Present",
+  },
+  {
     title: "Full Stack Developer",
     location: "Orgware Tech, Chennai",
     description:
@@ -99,6 +107,7 @@ export const projectsData = [
       "SaaS platform connecting AI agents to business messaging channels (WhatsApp, Email, Instagram). Enables automation and scaling of customer support conversations.",
     tags: ["Vite", "Express.js", "Microservices", "PostgreSQL", "Prisma ORM", "Mail Server", "MCP", "RAG"],
     imageUrl: aladdyn,
+    url: "https://aladdyn.io",
   },
   {
     title: "Kitty Magic",

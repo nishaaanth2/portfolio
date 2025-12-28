@@ -4,9 +4,11 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
 
 type ProjectProps = (typeof projectsData)[number] & {
   showImage?: boolean;
+  url?: string;
 };
 
 export default function Project({
@@ -14,6 +16,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  url,
   showImage = true,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
@@ -35,7 +38,13 @@ export default function Project({
     >
       <section className={`bg-gray-100 max-w-[50rem] border border-black/5 rounded-lg overflow-hidden ${showImage ? 'sm:pr-8 relative sm:h-[28rem] sm:group-even:pl-8' : ''} hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:hover:bg-white/20`}>
         <div className={`pt-4 pb-7 px-5 ${showImage ? 'sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[55%] sm:group-even:ml-[22rem]' : 'sm:px-10 sm:py-10'} flex flex-col h-full`}>
-          <h3 className="text-2xl font-semibold">{title}</h3>
+          {url ? (
+            <Link href={url} target="_blank" rel="noopener noreferrer">
+              <h3 className="text-2xl font-semibold hover:underline cursor-pointer">{title}</h3>
+            </Link>
+          ) : (
+            <h3 className="text-2xl font-semibold">{title}</h3>
+          )}
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>

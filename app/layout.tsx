@@ -91,11 +91,6 @@ export default function RootLayout({
           })(window,document,'script','dataLayer','GTM-K7J7QRKF');
         `}
       </Script>
-      <Script 
-        src="https://arivubot-seven.vercel.app/api/widget/mg6en860macnz7ymb4r"
-        strategy="afterInteractive"
-        id="arivubot-widget"
-      />
       
       {/* Matomo */}
       <Script id="matomo" strategy="afterInteractive">
