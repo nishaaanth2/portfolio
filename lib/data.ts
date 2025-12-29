@@ -105,7 +105,7 @@ export const projectsData = [
     title: "Aladdyn",
     description:
       "SaaS platform connecting AI agents to business messaging channels (WhatsApp, Email, Instagram). Enables automation and scaling of customer support conversations.",
-    tags: ["Vite", "Express.js", "Microservices", "PostgreSQL", "Prisma ORM", "Mail Server", "MCP", "RAG"],
+    tags: ["Vite", "Express.js", "Microservices", "PostgreSQL", "Prisma ORM", "Mail Server", "MCP", "RAG", "Microsoft Azure", "DevOps"],
     imageUrl: aladdyn,
     url: "https://aladdyn.io",
   },
